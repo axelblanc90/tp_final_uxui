@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, footer {
+    text-align: center;
+    color: #a5a5a5;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ff3b3b;
+}
+
+section {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+#about h2, #skills h2, #projects h2, #contact h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #ff3b3b;
+}
+
+#about p, #skills ul, #projects ul, #contact p {
+    font-size: 1.1em;
+    color: #a5a5a5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Estilos para la sección de proyectos */
+#projects ul li strong {
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+#projects ul li p {
+    font-size: 1em;
+    color: #a5a5a5;
+}
+
+/* Estilos de la sección de contacto */
+#contact p {
+    color: #ff3b3b;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #ff3b3b;
+}
+
+/* Estilos de footer */
+footer p {
+    font-size: 0.9em;
+    color: #555;
+    margin: 20px 0;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
+/* Efecto de sombra y líneas decorativas */
+section, footer {
+    position: relative;
+}
+
+section:before, footer:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30%;
+    height: 2px;
+    background: #ff3b3b;
+}
+
+section:after, footer:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 30%;
+    height: 2px;
+    background: #ff3b3b;
+}
